@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+    border: 2px solid #aaa;
+}
+
+div.gallery:hover {
+    border: 2px solid #999;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 1500px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://technoaddict.esy.es/android_login_api/images/Google_Home/1.jpg">
+      <img src="http://technoaddict.esy.es/android_login_api/images/Google_Home/1.jpg"  width="300" height="200">
+    </a>
+    <div class="desc">Click to View Image</div>
+  </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://technoaddict.esy.es/android_login_api/images/Google_Home/2.jpg">
+      <img src="http://technoaddict.esy.es/android_login_api/images/Google_Home/2.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">Click to View Image</div>
+  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://technoaddict.esy.es/android_login_api/images/Google_Home/3.jpg">
+      <img src="http://technoaddict.esy.es/android_login_api/images/Google_Home/3.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">Click to View Image</div>
+  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://technoaddict.esy.es/android_login_api/images/Google_Home/4.jpg">
+      <img src="http://technoaddict.esy.es/android_login_api/images/Google_Home/4.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">Click to View Image</div>
+  </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+</html>
